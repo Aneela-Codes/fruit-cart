@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+    letter-spacing: 2px;
+}
+header{
+    background-color: rgb(13, 104, 104);
+    text-align: center;
+}
+.bill-container{
+    background-color: rgb(245, 223, 245);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+}
+.bill-container input{
+    padding: 15px 22px;
+    font-size: 18px;
+    border-radius: 4px;
+    border:1px solid #f1f1f1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    outline: rgb(78, 238, 238);
+
+}
+.cart-container{
+    background-color: #34495e;
+    width: 70%;
+    margin: auto;
+}
+#counter{
+    background-color: gray;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.cart input{
+    font-size: 22px;
+    padding: 10px 20px;
+}
+.budget-display{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple{
+   
+  
+}
+ img{
+    width: 200px;
+}
